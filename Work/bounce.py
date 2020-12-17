@@ -1,7 +1,7 @@
 # bounce.py
 #
 # Exercise 1.5
-x=100
+height=100
 for i in range(1,11):
-    x=round((3/5)*x,4)
-    print(i,x)
+    height=height*(3/5)
+    print(i,round(height,4))
