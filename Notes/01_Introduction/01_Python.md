@@ -74,6 +74,7 @@ make if he sold all of his shares.
 35708.25
 >>>
 ```
+#we substract how much he bought them for from the new price to get the profits in one share then multiply that by 75 to get the total.
 
 Pro-tip: Use the underscore (\_) variable to use the result of the last
 calculation. For example, how much profit does Larry make after his evil
@@ -84,7 +85,7 @@ broker takes their 20% cut?
 28566.600000000002
 >>>
 ```
-
+#it's similar to calculating the 20% of the profits then substracting that from it,we get the same results.
 ### Exercise 1.2: Getting help
 
 Use the `help()` command to get help on the `abs()` function. Then use
